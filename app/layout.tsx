@@ -15,6 +15,12 @@ export const viewport: Viewport = {
 	],
 };
 
+export const metadata: Metadata = {
+	title: "Basic Notes",
+	description:
+		"A very basic notes taking application built using Next.js and NextUI components.",
+};
+
 export default function RootLayout({
 	children,
 }: {
